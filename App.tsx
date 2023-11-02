@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, Image } from 'react-native';
+import { Image, Text, View } from 'react-native';
 import { PostsData, UsersData } from './data';
 
 const Post = ({

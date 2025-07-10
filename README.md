@@ -2,9 +2,9 @@
 
 ## Introduction 
 
-The code provided is a React application that display a News Feed, it has a `App` component and `Post` component, the `App` component display the `Post` component 5 times and passing it props, these props are hardcoded data of users and posts. The `Post` component accepts a set of props and displays them in a structured format with some inline styling, such as the title, content, author name, avatar, and created date of the post.
+The code provided is a React Native application that displays a News Feed, it has a `App` component and `Post` component, the `App` component display the `Post` component 5 times and passing it props, these props are hardcoded data of users and posts. The `Post` component accepts a set of props and displays them in a structured format with some inline styling, such as the title, content, author name, avatar, and created date of the post.
 
-The data for the posts and users are hardcoded in the `data.ts` file in the format of `PostsData` and `UsersData` arrays. The `Post` component accesses the data through these variables, and maps the author name, avatar and created date of the post using the UsersData array, whereas title and content are fetched from PostsData array.
+The data for the posts and users are hardcoded in the `data.ts` file in the format of `PostsData` and `UsersData` arrays
 
 ## Task
 
@@ -18,7 +18,6 @@ Your task is to improve the provided code in the following ways:
 
 1. Refactor the components in a way that is both sustainable and makes sense.
 
-1. Display different the posts instead of hard coding 5 post by fetching the data from the server, and handle displaying these posts sorted by recently created.
 
 ### Note
 
